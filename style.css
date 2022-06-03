@@ -251,12 +251,6 @@ h1 {
   border-radius: 8px;
 }
 
-.social-link li:first-child {
-  padding: 12px 20px 12px 0;
-}
-
-
-
 .wrapper {
   background: #e5e5e5;
 }
@@ -331,16 +325,13 @@ header {
   border: 1px solid #396df2;
   border-radius: 16px;
   padding: 15px;
-  margin-bottom: 60px;
-  
-  text-align: center;
-  
+  margin-bottom: 60px; 
+  text-align: center; 
 }
 
 .resume {
   text-decoration: none;
   color: #396DF2;
-
 }
 
 .btn_resume:hover {
@@ -358,7 +349,7 @@ header {
   color: #6070ff;
 }
 
-.language {
+.language-1 {
   height: 24px;
   left: 12px;
   right: 78px;
@@ -420,6 +411,10 @@ header {
   list-style: none;
 }
 
+.social-link li:first-child {
+  padding: 12px 20px 12px 0;
+}
+
 .skills li p {
   height: 24px;
   font-family: 'Poppins', sans-serif;
@@ -443,5 +438,3 @@ header {
 width: 12px;
 height: 6px;
 }
-
-
